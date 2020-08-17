@@ -78,7 +78,7 @@ async def createplaylist(ctx, member : discord.Member = None):
             descTest = await client.wait_for('message')
             desc = descTest.content
             createPlaylist(OAtoken, name, desc, True)
-            await ctx.send("Your playlist has been created under the account name pbhoopala!")
+            await ctx.send("Your playlist has been created under the account name !")
 
 
 client.run(discordToken)
