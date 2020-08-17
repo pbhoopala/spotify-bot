@@ -26,7 +26,7 @@ def createPlaylist(token, name, desc, public):
     res = requests.post(url=endPoint, data=data_body, headers={"Content-Type": "application/json", "Authorization": "Bearer " + token})
 
 #API requests
-playlist_id = "1Ihv45MsVOJlJV7pBFZ49l"
+playlist_id = " "
 
 @client.event
 async def on_ready():
